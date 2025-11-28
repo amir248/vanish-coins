@@ -119,7 +119,10 @@
 </p>
 </section>
   <footer>
-    © 2025 Vanish Coins — Надежный брокерский сервис
+    © <span id="date"></span> Vanish Coins — Надежный брокерский сервис
   </footer>
+  <script>
+    document.getElementById('date').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
